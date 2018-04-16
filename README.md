@@ -3,7 +3,7 @@
 ![Screenshot](/screenshot.png)
 
 ## note
-Please note that this workflow was created to enhance my personal workflow and thusfore is probably not perfect for your environment!
+Please note that this workflow was created to enhance my personal workflow and thus fore is probably not perfect for your environment!
 
 ## about
 This workflow makes it possible to easily access all of the ssh passwords for all of my projects.
@@ -15,7 +15,7 @@ To access the password press `cmd+enter`. This will invoke the same behaviour bu
 
 ## Data source
 All of the data has to be stored in `/.alfred/.ssh.json` in the following format:
-```
+```json
 {"items": [
     {
         "uid":"justijndepover",
@@ -31,10 +31,19 @@ All of the data has to be stored in `/.alfred/.ssh.json` in the following format
 ]}
 ```
 
-`uid`: unique identifier.
-`title`: Title that will show up on the workflow
-`subtitle`: *optional* Subtitle that will show up on the workflow
-`arg`: string that holds username + password. Separated by a pipe `|` symbol
-`autocomplete`: *optional* If tab is pressed, this string will be autocompleted
-`match`: list of keywords that will match for this item
-`icon`: *optional* set a custom icon for the item
+<dl>
+  <dt>uid</dt>
+  <dd>unique identifier.</dd>
+  <dt>title</dt>
+  <dd>Title that will show up on the workflow</dd>
+  <dt>subtitle</dt>
+  <dd>*optional* Subtitle that will show up on the workflow</dd>
+  <dt>arg</dt>
+  <dd>string that holds username + password. Separated by a pipe `|` symbol</dd>
+  <dt>autocomplete</dt>
+  <dd>*optional* If tab is pressed, this string will be autocompleted</dd>
+  <dt>match</dt>
+  <dd>list of keywords that will match for this item</dd>
+  <dt>icon</dt>
+  <dd>*optional* set a custom icon for the item</dd>
+</dl>
