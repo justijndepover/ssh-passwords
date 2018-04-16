@@ -37,13 +37,13 @@ All of the data has to be stored in `/.alfred/.ssh.json` in the following format
   <dt>title</dt>
   <dd>Title that will show up on the workflow</dd>
   <dt>subtitle</dt>
-  <dd>*optional* Subtitle that will show up on the workflow</dd>
+  <dd><i>optional</i> Subtitle that will show up on the workflow</dd>
   <dt>arg</dt>
   <dd>string that holds username + password. Separated by a pipe `|` symbol</dd>
   <dt>autocomplete</dt>
-  <dd>*optional* If tab is pressed, this string will be autocompleted</dd>
+  <dd><i>optional</i> If tab is pressed, this string will be autocompleted</dd>
   <dt>match</dt>
   <dd>list of keywords that will match for this item</dd>
   <dt>icon</dt>
-  <dd>*optional* set a custom icon for the item</dd>
+  <dd><i>optional</i> set a custom icon for the item</dd>
 </dl>
