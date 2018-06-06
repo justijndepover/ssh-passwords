@@ -14,7 +14,7 @@ When you press `enter` the ssh username will copy to your clipboard and if possi
 To access the password press `cmd+enter`. This will invoke the same behaviour but with the password.
 
 ## Data source
-All of the data has to be stored in `/.alfred/.ssh.json` in the following format:
+All of the data has to be stored in `~/.alfred/.ssh.json` in the following format:
 ```json
 {"items": [
     {
